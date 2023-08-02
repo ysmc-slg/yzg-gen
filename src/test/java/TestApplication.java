@@ -1,6 +1,6 @@
-import com.github.davidfantasy.mybatisplus.generatorui.GeneratorConfig;
-import com.github.davidfantasy.mybatisplus.generatorui.MybatisPlusToolsApplication;
-import com.github.davidfantasy.mybatisplus.generatorui.mbp.NameConverter;
+import top.zxqs.gen.GeneratorConfig;
+import top.zxqs.gen.MybatisPlusToolsApplication;
+import top.zxqs.gen.mbp.NameConverter;
 
 public class TestApplication {
 
