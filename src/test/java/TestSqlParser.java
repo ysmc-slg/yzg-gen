@@ -1,8 +1,8 @@
 import cn.hutool.core.util.ReUtil;
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
-import com.github.davidfantasy.mybatisplus.generatorui.sqlparser.ConditionExpr;
-import com.github.davidfantasy.mybatisplus.generatorui.sqlparser.DynamicParamSqlEnhancer;
+import com.yzg.gen.mybatisplus.generatorui.sqlparser.ConditionExpr;
+import com.yzg.gen.mybatisplus.generatorui.sqlparser.DynamicParamSqlEnhancer;
 import com.google.common.collect.Lists;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;

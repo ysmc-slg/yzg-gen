@@ -1,5 +1,5 @@
-import com.github.davidfantasy.mybatisplus.generatorui.GeneratorConfig;
-import com.github.davidfantasy.mybatisplus.generatorui.MybatisPlusToolsApplication;
+import com.yzg.gen.mybatisplus.generatorui.GeneratorConfig;
+import com.yzg.gen.mybatisplus.generatorui.MybatisPlusToolsApplication;
 
 public class TestApplication {
 

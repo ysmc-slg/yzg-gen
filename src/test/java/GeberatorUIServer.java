@@ -1,13 +1,13 @@
-import com.github.davidfantasy.mybatisplus.generatorui.GeneratorConfig;
-import com.github.davidfantasy.mybatisplus.generatorui.MybatisPlusToolsApplication;
-import com.github.davidfantasy.mybatisplus.generatorui.mbp.NameConverter;
+import com.yzg.gen.mybatisplus.generatorui.GeneratorConfig;
+import com.yzg.gen.mybatisplus.generatorui.MybatisPlusToolsApplication;
+import com.yzg.gen.mybatisplus.generatorui.mbp.NameConverter;
 
 public class GeberatorUIServer {
 
     public static void main(String[] args) {
-        GeneratorConfig config = GeneratorConfig.builder().jdbcUrl("jdbc:mysql://192.168.1.211:3306/test")
-                .userName("root")
-                .password("root")
+        GeneratorConfig config = GeneratorConfig.builder().jdbcUrl("jdbc:mysql://rm-m5ejd596cp32w83grpo.mysql.rds.aliyuncs.com:3306/dbfj5p9z6l4g8?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&rewriteBatchedStatements=true&autoReconnect=true")
+                .userName("qsb_yitao")
+                .password("quanwangNO1")
                 .driverClassName("com.mysql.cj.jdbc.Driver")
                 //数据库schema，POSTGRE_SQL,ORACLE,DB2类型的数据库需要指定
 //                .schemaName("myBusiness")
